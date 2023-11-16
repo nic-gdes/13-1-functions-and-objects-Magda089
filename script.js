@@ -1,5 +1,6 @@
 // Nothing here yet...
 // Make sure to link your JS in index.html!
+alert("JavaScript is working!");
 // Steps
 // 1. Create a Car class, with a constructor that accepts 3 parameters: make (ex: Chevy, Ford, Toyota), model (ex: Camero, F150, Rav4), and year.
 class Car {
