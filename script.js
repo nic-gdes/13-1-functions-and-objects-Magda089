@@ -10,7 +10,7 @@ constructor (make, model, year) {
 }
   // Step 2: Include a describe method
 describe () {
-    return 'This is a ${this.year} ${this.model, made by ${this.make}.';
+    return `This is a ${this.year} ${this.model}, made by ${this.make}.`;
 }
 }
 // Step 3: Create 4 cars and push them to an array called allCars
@@ -22,9 +22,12 @@ const hondaAccord = new Car ('Honda','Acord', '2018');
 
 
 
-// console.log('Car 1 is a ' + car1.year + ' ' + car1.make + ' ' + car1.model);
 
-// Step 4
+// Step 4 
+// Write a function with a single parameter car that, when called, will console.log the Car.describe method for the car used in the parameter.
+// Declare the function using function {{ functionName }} (car) {};
+// Inside the function's code block, simply return car.describe; so the function returns the describe phrase for the car in the parameters.
+
 function logCarDescription (car) {
     console.log (car.describe());
 }
